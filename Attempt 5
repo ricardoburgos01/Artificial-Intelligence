@@ -1,0 +1,18 @@
+#!/bin/sh
+g++ Attempt 5.cpp -o Attempt 5
+./Attempt 5
+#include <string>
+#include <vector>
+#include <iostream>
+
+int main(int argc, char* argv[]) {
+  int a, b;
+
+  std::cin >> a;
+  std::cin >> b;
+
+  std::cout << a + b;
+
+  return 0;
+}
+std::cout << "Hello World\n";
