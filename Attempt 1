@@ -1,0 +1,20 @@
+#include <string>
+#include <vector>
+#include <iostream>
+
+int main(int argc, char* argv[]) {
+  std::string line;
+  std::vector<std::string> lines;
+
+  while(std::getline(std::cin, line)) {
+    lines.push_back(line);
+  }
+
+  // do something with the lines array
+
+  return 0; // don't forget to return 0!
+}
+std::cout << "Hello World\n";
+#!/bin/sh
+g++ program.cpp -o program
+./program
